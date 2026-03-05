@@ -1,0 +1,12 @@
+# Neo4j factual chatbot runtime
+python-dotenv
+pydantic
+pydantic-settings
+
+# LLM + workflow
+langchain-core
+langchain-cohere
+langgraph
+
+# Graph database
+neo4j
