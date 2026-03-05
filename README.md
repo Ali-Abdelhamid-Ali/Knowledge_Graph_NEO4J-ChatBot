@@ -7,7 +7,7 @@ Standalone CLI project for a Neo4j + Cohere + LangGraph factual chatbot.
 ## Architecture
 
 ```text
-neo4j_factual_chatbot/
+
 ├── main.py                     # CLI entrypoint
 ├── core/config.py             # Environment configuration
 ├── schemas/chat.py            # Pydantic models and workflow state
@@ -21,7 +21,7 @@ neo4j_factual_chatbot/
 ## Run
 
 ```bash
-python neo4j_factual_chatbot/main.py
+python main.py
 ```
 
 Required env vars:
